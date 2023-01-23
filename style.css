@@ -1,0 +1,181 @@
+*
+{
+	box-sizing:border-box;
+}
+
+/* ********* 992px WIDTH ************** */
+
+@media (min-width:992px)
+{
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:100%;
+	margin:0px;
+}
+h1
+{
+	font-size:3em;
+	text-align:center;
+}
+.box
+{
+	width:31.5%;
+	border:2px solid black;	
+	margin:10px;
+	background-color:#A9A9A9;
+	float:left;
+}
+#sub-1
+{
+	background-color:#FFB6C1
+}
+#sub-2
+{
+	background-color:#FF6347
+}
+#sub-3
+{
+	background-color:#FFFF99
+}
+.subs-1
+{
+	width:45%;
+	float:right;
+	text-align:center;
+	border:2px solid black;
+	clear:both;
+	font-size:2em;
+	margin-bottom:20px;
+}
+.content
+{
+	clear:both;
+	padding:10px;
+}
+}
+
+/* ******** 768px - 991px WIDTH *************** */
+
+
+@media (min-width:768px) and (max-width:991px)
+{
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:100%;
+	margin:0px;
+}
+h1
+{
+	font-size:3em;
+	text-align:center;
+}
+#row-1
+{
+	width:47.5%;
+	border:2px solid black;	
+	margin:10px;
+	background-color:#A9A9A9;
+	float:left;
+}
+#row-2
+{
+	width:47.5%;
+	border:2px solid black;	
+	margin:10px;
+	background-color:#A9A9A9;
+	float:left;
+}
+#row-3
+{
+	width:98%;
+	border:2px solid black;	
+	margin:10px;
+	background-color:#A9A9A9;
+	float:left;
+}
+
+#sub-1
+{
+	background-color:#FFB6C1
+}
+#sub-2
+{
+	background-color:#FF6347
+}
+#sub-3
+{
+	background-color:#FFFF99
+}
+.subs-1
+{
+	width:45%;
+	float:right;
+	text-align:center;
+	border:2px solid black;
+	clear:both;
+	font-size:2em;
+	margin-bottom:20px;
+}
+.content
+{
+	clear:both;
+	padding:10px;
+}
+}
+
+/* *********** 767px WIDTH ************ */
+
+@media (max-width:767px)
+{
+body
+{
+	font-family:Arial,Helvetica,sans-serif;
+	font-weight:bold;
+	font-size:100%;
+	margin:0px;
+}
+h1
+{
+	font-size:3em;
+	text-align:center;
+}
+.box
+{
+	width:98%;
+	border:2px solid black;	
+	margin:10px;
+	background-color:#A9A9A9;
+	float:left;
+}
+#sub-1
+{
+	background-color:#FFB6C1
+}
+#sub-2
+{
+	background-color:#FF6347
+}
+#sub-3
+{
+	background-color:#FFFF99
+}
+.subs-1
+{
+	width:45%;
+	float:right;
+	text-align:center;
+	border:2px solid black;
+	clear:both;
+	font-size:2em;
+	margin-bottom:20px;
+}
+.content
+{
+	clear:both;
+	padding:10px;
+}
+}
